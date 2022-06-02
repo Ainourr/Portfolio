@@ -1,131 +1,157 @@
-body{
-	margin: 0;
-	padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
-h1{
-	font-size: 70px;
-	font-family: "lato";
-	line-height: 0;
+
+h1 {
+    font-size: 70px;
+    font-family: "lato";
+    line-height: 0;
 }
-h3{
-	font-size: 40px;
-	font-family: "condiment";
-	line-height: 0;
+
+h3 {
+    font-size: 40px;
+    font-family: "condiment";
+    line-height: 0;
 }
-.about-title{
-	font-family: "lato";
-	float:right;
-	padding: 40px 25px;
+
+.about-title {
+    font-family: "lato";
+    /* float: right; */
+    padding: 40px 25px;
 }
-.project-title{
-	font-family: "lato";
-	position: absolute;
-	top: 5%;
-	left: 44%;
+
+.project-title {
+    font-family: "lato";
+    position: absolute;
+    top: 5%;
+    left: 44%;
 }
-.contact-title{
-	font-family: "lato";
+
+.contact-title {
+    font-family: "lato";
 }
-h2{
-	font-size: 20px;
-	font-family: "commissioner";
+
+h2 {
+    font-size: 20px;
+    font-family: "commissioner";
 }
-h4{
-	font-size: 20px;
-	font-family: "commissioner";
-	padding: 5% 10%;
+
+h4 {
+    font-size: 20px;
+    font-family: "commissioner";
+    padding: 5% 10%;
 }
-p{
-	font-family: "lato";
-	padding-top: 20%;
+
+p {
+    font-family: "lato";
+    padding-top: 20%;
 }
-a{
-	color: black;
+
+a {
+    color: black;
 }
+
+
 /* Pre name */
-.name{
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	background: pink;
-	z-index: 2;
-	overflow: hidden;
-	animation:name 2s ease 2s;
-      animation-fill-mode: forwards;
+
+.name {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: pink;
+    z-index: 2;
+    overflow: hidden;
+    animation: name 2s ease 2s;
+    animation-fill-mode: forwards;
 }
-.name .intro{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
+
+.name .intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
-.name .intro h3{
-	font-size: 120px;
-	color: black; 
+
+.name .intro h3 {
+    font-size: 120px;
+    color: black;
 }
-@keyframes name{
-	0%{
+
+@keyframes name {
+    0% {
         opacity: 1;
-	}
-	100%{
-		opacity: 0;
-		z-index: -2;
-	}
+    }
+    100% {
+        opacity: 0;
+        z-index: -2;
+    }
 }
+
+
 /* Landing Page */
-#landingPage{
-	width: 100%;
-	height: 100vh;
-	text-align: center;
-	position: relative;
+
+#landingPage {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
 }
-.header{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 15%;
-	height: 9%;
-	background-color: pink;
-	text-align: center;
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 9%;
+    background-color: pink;
+    text-align: center;
 }
-.line{
-	position: absolute;
-	left: 0;
-	top: 95%;
-	width: 145px;
-	height: 1px;
-	background-color: black;
+
+.line {
+    position: absolute;
+    left: 0;
+    top: 95%;
+    width: 145px;
+    height: 1px;
+    background-color: black;
 }
-.nav{
-	position: absolute;
-	top: 0;
-	right: 2%;
-	display: flex;
+
+.nav {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-ul{
-	list-style: none;
+
+ul {
+    list-style: none;
 }
-li{
-	display: inline-block;
-	padding: 0px 15px;
+
+li {
+    display: inline-block;
+    padding: 0px 15px;
 }
-li a{
-	transition: all 0.3s ease 0s;
-	text-decoration: none;
-	font-size: 20px;
-	font-family: "commissioner";
-	color: black;
-	cursor: pointer;
+
+li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "commissioner";
+    color: black;
+    cursor: pointer;
 }
-li a:hover{
-	text-decoration-color: pink;
-	text-decoration: line-through;
+
+li a:hover {
+    text-decoration-color: pink;
+    text-decoration: line-through;
 }
-.nav-btn{
-	color: #fff;
+
+.nav-btn {
+    color: #fff;
     background-color: black;
     border-radius: 30px;
     padding: 8px 25px;
@@ -137,144 +163,181 @@ li a:hover{
     font-size: 18px;
     font-family: "commissioner";
     border-color: black;
-    box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .4);
     margin-top: 15px;
     transition: 0.8s all;
 }
-.title{
+
+.title {
     position: absolute;
     top: 20%;
     left: 40%;
     text-align: left;
 }
-.para{
-	position: absolute;
-	top: 70%;
-	left: 35%;
-	text-align: left;
-}
-.sidebar{
-	width: 45%;
-	height: 75%;
-	position: absolute;
-	top: 20%;
-	right: 0;
-	background-color: pink;
-}
-.strip{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 7%;
-	height: 35%;
-	background-color: black;
-}
-/* About */
-#about{
-	width: 100%;
-	height: 100vh;
-	position: relative;
-}
-.topbar{
-	position: absolute;
-	top: 10%;
-	left: 0;
-	width: 30%;
-	height: 35%;
-	background-color: pink;
-}
-.box{
-	position: absolute;
-	top: 30%;
-	left: 20%;
-	width: 50%;
-	height: 60%;
-	border: 3px solid black;
-	background-color: transparent;
-}
-.pos{
-	float: right;
-	margin: 15px;
-}
-/* skills */
-#skills{
-	width: 100%;
-	height: 110vh;
-	position: relative;
-}
-.sidebar3{
-	position: absolute;
-	top: 5%;
-	right: 0;
-	width: 10%;
-	height: 80%;
-	background-color: pink;
-}
-.strip3{
-	position: absolute;
-	top: 8%;
-	right: 0;
-	width: 40%;
-	height: 25%;
-	background-color: black;
-}
-.sidebar4{
-	position: absolute;
-	top: 5%;
-	left: 0;
-	width: 10%;
-	height: 80%;
-	background-color: pink;
-}
-.photo{
-	width: 150px;
-	height: 150px;
-	padding: 10px;
-}
-.bio{
-	position: absolute;
-	top: 0;
-	left: 35%;
-	color: white;
-}
-.education{
-	width: 45%;
-	position: absolute;
-	top: 5%;
-	left: 15%;
-}
-.h4{
-	padding: 0;
-	line-height: 0;
-}
-.h3{
-	line-height: 0;
-	font-family: "lato";
-}
-.imp{
-	color: hotpink;
-	padding-left: 30px; 
-}
-.imp2{
-	padding-left: 40px; 
-}
-.experience{
-	width: 45%;
-	position: absolute;
-	top: 50%;
-	left: 15%;
-}
-.skills-set{
-	width: 400px;
+
+.para {
     position: absolute;
-    top: 34%;
-    right: 11%;
+    top: 70%;
+    left: 35%;
+    text-align: left;
 }
-.h2{
-	padding: 0 15px;
-	font-size: 40px;
-	font-family: "lato";
+
+.sidebar {
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    background-color: pink;
 }
+
+.strip {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 7%;
+    height: 35%;
+    background-color: black;
+}
+
+
+/* About */
+
+#about {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.topbar {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 30%;
+    height: 35%;
+    background-color: pink;
+}
+
+.box {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 50%;
+    height: 60%;
+    border: 3px solid black;
+    background-color: transparent;
+}
+
+.pos {
+    float: right;
+    margin: 15px;
+}
+
+
+/* skills */
+
+#skills {
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+
+.sidebar3 {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 10%;
+    height: 80%;
+    background-color: pink;
+}
+
+.strip3 {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    width: 50%;
+    height: 25%;
+    background-color: black;
+    margin: 0 25%;
+    display: flex;
+}
+
+.sidebar4 {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 10%;
+    height: 80%;
+    background-color: pink;
+}
+
+.photo {
+    width: 115px;
+    height: 105px;
+    padding: 10px;
+}
+
+.bio {
+    /* position: absolute;
+        top: 0;
+        left: 35%; */
+    color: white;
+}
+
+.education {
+    width: 40%;
+    /* position: absolute;
+        top: 5%;
+        left: 15%; */
+}
+
+.h4 {
+    padding: 0;
+    line-height: 0;
+}
+
+.h3 {
+    line-height: 0;
+    font-family: "lato";
+}
+
+.imp {
+    color: hotpink;
+    padding-left: 30px;
+}
+
+.imp2 {
+    padding-left: 40px;
+}
+
+.aboutme-edu {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    margin: 0 15%;
+    top: 37%;
+}
+
+.experience {
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+.skills-set {
+    width: 35%;
+    /* position: absolute;
+        top: 34%;
+        right: 11%; */
+}
+
+.h2 {
+    padding: 0 15px;
+    font-size: 40px;
+    font-family: "lato";
+}
+
 .li {
     position: relative;
     list-style: none;
@@ -282,6 +345,7 @@ li a:hover{
     display: block;
     font-family: "commissioner";
 }
+
 .li:before {
     position: absolute;
     top: calc(100% + 10px);
@@ -289,8 +353,9 @@ li a:hover{
     width: 100%;
     height: 15px;
     background-color: pink;
-    box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .4);
 }
+
 .li:after {
     content: "";
     position: absolute;
@@ -304,114 +369,138 @@ li a:hover{
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
+
 .li.html:after {
     animation-name: html;
 }
+
 @keyframes html {
     to {
         width: 90%;
     }
 }
+
 .li.css:after {
     animation-name: css;
 }
+
 @keyframes css {
     to {
         width: 80%;
     }
 }
+
+
 /* projects */
-#projects{
-	width: 100%;
-	height: 80vh;
-	background-color: black;
-	position: relative;
-	text-align: center;
+
+#projects {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    position: relative;
+    text-align: center;
 }
-.cover{
-	width: 100%;
-	height: 100%;
-	background-color: pink;
-	transform: skewY(-3deg);
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    transform: skewY(-3deg);
 }
-.projects-container{
-	width: 100%;
-	height: 50%;
-	z-index: 1;
-	position: absolute;
-	top: 27%;
-	left: 0;
+
+.projects-container {
+    width: 100%;
+    height: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 27%;
+    left: 0;
 }
-.project{
-	width: 30%;
-	height: 100%;
-	padding: 0px 20px;
-	display: inline-block;
-	text-align: center;
+
+.project {
+    width: 30%;
+    height: 100%;
+    padding: 0px 20px;
+    display: inline-block;
+    text-align: center;
 }
-.pro-img{
-	width: 400px;
-	height: 200px;
-	box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+
+.pro-img {
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .4);
 }
-.pos2{
-	position: absolute;
-	bottom: 5%;
-	left: 43.5%;
+
+.pos2 {
+    position: absolute;
+    bottom: 5%;
+    left: 43.5%;
 }
+
+
 /* contacts */
-#contacts{
-	width: 100%;
-	height: 60vh;
-	text-align: center;
-	position: relative;
+
+#contacts {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    position: relative;
 }
-.contact-me{
-	width: 50%;
-	margin-left: 25%;
-	margin-top: 5%;
+
+.contact-me {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
 }
+
+
 /* footer */
-#footer{
-	width: 100%;
-	height: 30vh;
-	position: relative;
-	background-color: #f6f6f6;
+
+#footer {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    background-color: #f6f6f6;
 }
-.logo{
-	position: absolute;
-	top: 10%;
-	left: 0;
-	width: 15%;
-	height: 28%;
-	background-color: pink;
-	text-align: center;
+
+.logo {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 15%;
+    height: 28%;
+    background-color: pink;
+    text-align: center;
 }
-.scroll-indicator{
-	width: 40px;
-	height: 40px;
-	background-color: pink;
-	position: absolute;
-	top: 45%;
-	left: 11.25%;
-	font-size: 30px;
-	text-align: center;
-	padding: 5px;
+
+.scroll-indicator {
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    position: absolute;
+    top: 45%;
+    left: 11.25%;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
 }
-.link{
-	display: flex;
-	position: absolute;
-	top: 5%;
-	left: 41%;
+
+.link {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 41%;
 }
-.footer-link{
-  color: black;
-  font-family: 'commissioner';
-  margin: 15px 12px;
-  text-decoration: none;
-  font-size: 20px;
+
+.footer-link {
+    color: black;
+    font-family: 'commissioner';
+    margin: 15px 12px;
+    text-decoration: none;
+    font-size: 20px;
 }
-.footer-social-icons ul{
+
+.footer-social-icons ul {
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -420,11 +509,13 @@ li a:hover{
     left: 50%;
     transform: translate(-50%);
 }
-.footer-social-icons ul li{
+
+.footer-social-icons ul li {
     margin: 0 15px;
     list-style: none;
 }
-.footer-social-icons ul li a{
+
+.footer-social-icons ul li a {
     position: relative;
     display: block;
     width: 70px;
@@ -433,201 +524,257 @@ li a:hover{
     line-height: 70px;
     background: black;
     border-radius: 50%;
-    box-shadow: 0px 8px 15px rgba(0,0,0,.4);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .4);
     font-size: 30px;
     color: #666;
     transition: -5s;
 }
-.footer-social-icons ul li a:before{
+
+.footer-social-icons ul li a:before {
     position: absolute;
     left: 0;
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-.sidebar2{
-	width: 30%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	background-color: pink;
-	text-align: center;
+
+.sidebar2 {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: pink;
+    text-align: center;
 }
-.strip2{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 7%;
-	height: 50%;
-	background-color: black;
+
+.strip2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 7%;
+    height: 50%;
+    background-color: black;
 }
+
+
 /* Mobile */
-@media screen and (min-width:360px) and (max-width: 1020px){
-	h3{
-		font-size: 100px;
-	}
-	.line,
-	 .li2, 
-	 .non{
-		display: none;
-	}
-	.header{
-		height: 8%;
-		width: 30%;
-	}
-	.nav-btn{
-		font-size: 50px;
-		padding: 25px 35px;
-	}
-	.nav {
-		top: 3%;
-	}
-	h1{
-		font-size: 140px;
-	}
-	.title,
-	 .para{
-		left: 12%;
-	}
-	.sidebar{
-		height: 68%;
-	}
-	.strip{
-		width: 10%;
-	}
-	h2{
-		font-size: 55px;
-	}
-	.topbar{
-		width: 45%;
-		height: 25%;
-	}
-	.box{
-		width: 75%;
-		top: 25%;
-		left: 15%;
-		height: 63%;
-	}
-	h4{
-		font-size: 45px;
-		padding: 0 5%;
-	}
-	#skills{
-		height: 140vh;
-	}
-	.experience{
-		top: 70%;
-		left: 13%;
-		width: 80%;
-	}
-	.strip3{
-		width: 87%;
-		height: 12%;
-	}
-	.photo{
-		width: 280px;
-		height: 280px;
-	}
-	.bio{
-		left: 37%;
-	}
-	.skills-set{
-		width: 700px;
-		left: 12%;
-		top: 20%;
-	}
-	.h2{
-		font-size: 90px;
-	}
-	.li{
-		font-size: 45px;
-	}
-	.li:before,
-	 .li:after{
-		height: 25px;
-	}
-	.education{
+
+@media screen and (min-width:360px) and (max-width: 1020px) {
+    h3 {
+        font-size: 100px;
+    }
+    .line,
+    .li2,
+    .non {
+        display: none;
+    }
+    .header {
+        height: 18%;
+        width: 30%;
+    }
+    .nav-btn {
+        color: #fff;
+        background-color: black;
+        border-radius: 30px;
+        padding: 8px 25px;
+        text-align: center;
+        cursor: pointer;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        line-height: 26px;
+        font-size: 20px;
+        font-family: "commissioner";
+        border-color: black;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, .4);
+        margin-top: 15px;
+        transition: 0.8s all;
+    }
+    .nav {
+        top: 3%;
+    }
+    h1 {
+        font-size: 140px;
+    }
+    .title,
+    .para {
+        left: 12%;
+    }
+    .sidebar {
+        height: 68%;
+        top: 35%;
+        right: 0;
+    }
+    .strip {
+        width: 10%;
+    }
+    h2 {
+        font-size: 55px;
+    }
+    .topbar {
+        width: 45%;
+        height: 25%;
+    }
+    .box {
+        width: 75%;
+        top: 25%;
+        left: 15%;
+        height: 63%;
+    }
+    #skills {
+        height: 760px;
+    }
+    .experience {
+        top: 70%;
+        left: 13%;
+        width: 80%;
+    }
+    .strip3 {
+        width: 55%;
+        /* height: 12%; */
+    }
+    .photo {
+        width: 100px;
+        height: 100px;
+    }
+    .bio .name,
+    .bio .date,
+    .bio .city,
+    .bio .email,
+    .bio .number {
+        font-size: 20px;
+    }
+    .education .imp1,
+    .education .imp2,
+    .education .imp3,
+    .education .imp4 {
+        font-size: 20px;
+    }
+    .h2 {
+        font-size: 90px;
+    }
+    .li {
+        font-size: 20px;
+    }
+    .li:before,
+    .li:after {
+        height: 15px;
+    }
+    .education {
         top: 43%;
         left: 13%;
-        width: 70%;
-	}
-	.h4{
-		font-size: 50px;
-	}
-	.sidebar3,
-	 .sidebar4{
-		height: 90%;
-	}
-	#projects{
-		height: 115vh;
-	}
-	.project-title{
-		top: 3%;
-		left: 30%;
-	}
-	.projects-container{
-		top: 14%;
-	}
-	.project{
-		display: block;
-		width: 100%;
-		height: 50%;
-		padding: 0;
-	}
-	.pro-img{
-		width: 700px;
-		height: 350px;
-	}
-	.pos2{
-		bottom: 3%;
-		left: 30%;
-	}
-	#contacts{
-		height: 50vh;
-	}
-	.contact-me{
-	    width: 90%;
-	    margin: 20% 5%;
+        width: 40%;
     }
-    .p2{
-    	font-size: 55px;
+    .h4 {
+        font-size: 50px;
     }
-    .logo{
-    	width: 27%;
+    .sidebar3,
+    .sidebar4 {
+        height: 90%;
     }
-    .sidebar2{
-    	width: 100%;
-    	height: 20%;
-    	top: 80%;
+    #projects {
+        height: 115vh;
     }
-    .strip2{
-    	height: 100%;
+    .project-title {
+        top: 3%;
+        left: 30%;
     }
-    p{
-    	padding: 0;
-    	font-size: 35px;
+    .projects-container {
+        top: 14%;
     }
-    .scroll-indicator{
-    	width: 100px;
-    	height: 100px;
-    	font-size: 80px;
+    .project {
+        display: block;
+        width: 100%;
+        height: 50%;
+        padding: 0;
     }
-    .link{
-    	top: 15%;
-    	left: 33%;
+    .pro-img {
+        width: 700px;
+        height: 350px;
     }
-    .footer-link{
-    	font-size: 60px;
+    .pos2 {
+        bottom: 3%;
+        left: 30%;
     }
-    .footer-social-icons ul{
-    	top: 46%;
-    	left: 63%;
+    #contacts {
+        height: 50vh;
     }
-    .footer-social-icons ul li a{
-    	width: 100px;
-    	height: 100px;
-    	font-size: 60px;
-    	line-height: 100px;
+    .contact-me {
+        width: 90%;
+        margin: 20% 5%;
+    }
+    .p2 {
+        font-size: 55px;
+    }
+    .logo {
+        width: 27%;
+    }
+    .sidebar2 {
+        width: 100%;
+        height: 20%;
+        top: 80%;
+    }
+    .strip2 {
+        height: 100%;
+    }
+    p {
+        padding: 0;
+        font-size: 35px;
+    }
+    .scroll-indicator {
+        width: 100px;
+        height: 100px;
+        font-size: 80px;
+    }
+    .link {
+        top: 15%;
+        left: 33%;
+    }
+    .footer-link {
+        font-size: 60px;
+    }
+    .footer-social-icons ul {
+        top: 46%;
+        left: 63%;
+    }
+    .footer-social-icons ul li a {
+        width: 100px;
+        height: 100px;
+        font-size: 60px;
+        line-height: 100px;
+    }
+    /* changes */
+    .aboutme {
+        font-size: 20px;
+    }
+    .header-logo {
+        font-size: 41px;
+    }
+    .title {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        text-align: left;
+    }
+    .title h1 {
+        font-size: 60px;
+        font-family: "lato";
+    }
+    .para {
+        position: absolute;
+        top: 70%;
+        left: 35%;
+        text-align: left;
+    }
+    .para h2 {
+        font-size: 20px;
+    }
+    .about-title {
+        font-size: 30px;
+        padding: 12px 130px;
+    }
+    .education h3,
+    .skills-set h3 {
+        font-size: 40px;
     }
 }
